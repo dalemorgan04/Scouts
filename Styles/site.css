@@ -6,8 +6,8 @@
     dark brown #7c665d
     strong brown  #aa825a
     light brown #d7b487
-
 */
+
 body {
     background-color: #ccdc39;
     color: #2b303a;
@@ -45,9 +45,6 @@ p{
     .scouts-nav li a:hover {
         background-color: #f5fdc6;
     }
-
-
-
 
 /*----------------------------------Jumbotron */
 
@@ -91,18 +88,9 @@ p{
 .scout-panel-body {
     margin-left: 15px;
     margin-right: 15px;
-}
-.draw {
-    border: solid 4px red;
+    background: white;
 }
 
-.draw-blue {
-    border: solid 4px blue;
-}
-
-.draw-black {
-    border: solid 4px black;
-}
 
 .flex-container {
 
@@ -139,10 +127,6 @@ overflow: hidden;
     height:100%;
 }
 
-
-
-
-
 /*Carousel jumbotron*/
 
 .slide1, .slide2, .slide3 {
@@ -176,9 +160,7 @@ overflow: hidden;
 }
 
 
-/*
-inspired from https://codepen.io/Rowno/pen/Afykb 
-*/
+/* inspired from https://codepen.io/Rowno/pen/Afykb */
 .carousel-fade .carousel-inner .item {
     opacity: 0;
     transition-property: opacity;
@@ -235,3 +217,17 @@ now override the 3.3 new styles for modern browsers & apply opacity
         flex-direction: column;
     }
 }
+
+/*Debugging layout*/
+.draw {
+    border: solid 4px red;
+}
+
+.draw-blue {
+    border: solid 4px blue;
+}
+
+.draw-black {
+    border: solid 4px black;
+}
+/*Debugging layout*/

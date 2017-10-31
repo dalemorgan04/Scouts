@@ -21,9 +21,7 @@
 <!--vvvvv-------------------Shared Navbar-------------------------------vvvvv-->
 <nav class="navbar scouts-navbar">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><img src="Images/bear.png"/></a>
-        </div>
+        <a class="navbar-brand" href="index.html"><img src="Images/bear.png"/></a>
         <ul class="nav navbar-nav scouts-nav">
             <li><a href="#">News</a></li>
             <li><a href="Events.html">Events</a></li>
@@ -34,36 +32,42 @@
     </div>
 </nav>
 <!--^^^^^-------------------Shared Navbar-------------------------------^^^^^-->   
-    <br/>
-<div class="container-fluid row">
-    <div class="col-sm-4">
-        <div class="panel panel-default match-height-1">
-            <div class="panel-body  ">
 
-                <h4>Upcoming Events</h4>
+<br/>
+    
+<div class="flex-container">
+    
+    <div class="flex-item" style="flex-grow: 1">
+        <div class="panel">
+            <div class="panel-body">
+                <div class="row scout-panel-body">
+                    <h4>Upcoming Events</h4>
+                    
+                    <div class="responsive-iframe-container match-height-2">
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FLondon" frameborder="0"></iframe>
+                    </div>
 
-                <div class="responsive-iframe-container match-height-2">
-                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FLondon" frameborder="0"></iframe>
                 </div>
-
             </div>
         </div>
     </div>
-
-    <div class="col-sm-8">
-        <div class="panel panel-default match-height-1">
+    
+    <div class="flex-item" style="flex-grow: 2">
+        <div class="panel">
             <div class="panel-body">
-                <h4>Full Calendar</h4>
+                <div class="row scout-panel-body" >
+                    <h4>Full Calendar</h4>
+                    
+                    <div class="responsive-iframe-container match-height-2">
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FLondon" frameborder="0"></iframe>
+                    </div>
 
-                <div class="responsive-iframe-container match-height-2">
-                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FLondon" frameborder="0"></iframe>
                 </div>
             </div>
         </div>
     </div>
 
 </div>
-
 
 </body>
 </html>
