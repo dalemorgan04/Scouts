@@ -1,10 +1,53 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C76765E-A3B3-4F90-AC24-7506CE06D7E2}"
+	ProjectSection(SolutionItems) = preProject
+		_Shared.html = _Shared.html
+		Events.html = Events.html
+		FindUs.html = FindUs.html
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{E4B2FBCA-EA07-4C3C-A429-677A059DED50}"
+	ProjectSection(SolutionItems) = preProject
+		Images\archery.png = Images\archery.png
+		Images\bear.png = Images\bear.png
+		Images\forest.jpg = Images\forest.jpg
+		Images\fox.jpg = Images\fox.jpg
+		Images\stripe.png = Images\stripe.png
+		Images\tool.png = Images\tool.png
+		Images\treeTops.jpg = Images\treeTops.jpg
+		Images\trophy.png = Images\trophy.png
+		Images\waterfall.jpg = Images\waterfall.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{0956A108-D268-425F-835F-348CAB58F7F9}"
+	ProjectSection(SolutionItems) = preProject
+		Javascript\client_id.json = Javascript\client_id.json
+		Javascript\events.js = Javascript\events.js
+		Javascript\index.js = Javascript\index.js
+		Javascript\jquery-ui.min.js = Javascript\jquery-ui.min.js
+		Javascript\jquery.js = Javascript\jquery.js
+		Javascript\jquery.matchHeight.js = Javascript\jquery.matchHeight.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{976134AE-E1BE-49E2-9022-B65D73D024E7}"
+	ProjectSection(SolutionItems) = preProject
+		Styles\bootstrap.css = Styles\bootstrap.css
+		Styles\jquery-ui.min.css = Styles\jquery-ui.min.css
+		Styles\site.css = Styles\site.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4B2FBCA-EA07-4C3C-A429-677A059DED50} = {6C76765E-A3B3-4F90-AC24-7506CE06D7E2}
+		{0956A108-D268-425F-835F-348CAB58F7F9} = {6C76765E-A3B3-4F90-AC24-7506CE06D7E2}
+		{976134AE-E1BE-49E2-9022-B65D73D024E7} = {6C76765E-A3B3-4F90-AC24-7506CE06D7E2}
 	EndGlobalSection
 EndGlobal
